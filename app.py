@@ -40,6 +40,4 @@ def main(port, files):
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG)
 
-    main(8080, ('james-joyce-ulysses.txt',
-                'james-joyce-a-portrait-of-the-artist-as-a-young-man.txt',
-                'james-joyce-dubliners.txt'))
+    main(8080, ('cda_2017.txt'))
