@@ -40,4 +40,4 @@ def main(port, files):
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG)
 
-    main(8080, ['vvd2017.txt', 'd662017.txt', 'cda2017.txt', 'gl2017.txt'])
+    main(8080, ['vvd2017.txt', 'cda2017.txt', 'gl2017.txt'])
